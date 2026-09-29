@@ -1,0 +1,15 @@
+track,planned_questions
+C Fundamentals & Language Mechanics,150
+"Pointers, Arrays, Strings & Memory",170
+Bit Manipulation & Registers,120
+Data Structures & Algorithms,180
+Embedded C & Defensive Firmware,130
+"MCU Architecture, GPIO & Interrupts",100
+"Timers, PWM, ADC, DMA & RTC",90
+"UART, SPI, I2C, CAN & Communication",120
+"FreeRTOS, Concurrency & Synchronization",130
+"Debugging, Optimization & Testing",100
+Networking & Embedded Protocols,60
+Security & Cryptography,50
+DLMS/COSEM & Protocol Engineering,50
+"Embedded Linux, C++ & System Design",50
