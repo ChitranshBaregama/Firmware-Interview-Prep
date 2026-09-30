@@ -1,60 +1,15 @@
-# Firmware Interview Prep
+# Firmware Interview Prep has moved
 
-A portable, code-first workspace for becoming interview-ready for Embedded/Firmware roles.
+All active learning and development now happens in **[embedded-systems-resources](https://github.com/ChitranshBaregama/embedded-systems-resources)**.
 
-## Target
-- 1,500 technical/coding questions
-- 150 dedicated interview questions
-- Code from scratch, compile, test, debug, explain, revisit
-- Works locally or in GitHub Codespaces
+## Continue in the combined repository
 
-## Curriculum
-| Track | Questions |
-|---|---:|
-| C Fundamentals & Language Mechanics | 150 |
-| Pointers, Arrays, Strings & Memory | 170 |
-| Bit Manipulation & Registers | 120 |
-| Data Structures & Algorithms | 180 |
-| Embedded C & Defensive Firmware | 130 |
-| MCU Architecture, GPIO & Interrupts | 100 |
-| Timers, PWM, ADC, DMA & RTC | 90 |
-| UART, SPI, I2C, CAN & Communication | 120 |
-| FreeRTOS, Concurrency & Synchronization | 130 |
-| Debugging, Optimization & Testing | 100 |
-| Networking & Embedded Protocols | 60 |
-| Security & Cryptography | 50 |
-| DLMS/COSEM & Protocol Engineering | 50 |
-| Embedded Linux, C++ & System Design | 50 |
-| **Total** | **1500** |
+- [Start here: end-to-end workflow](https://github.com/ChitranshBaregama/embedded-systems-resources/blob/main/START_HERE.md)
+- [Roadmap and readiness gates](https://github.com/ChitranshBaregama/embedded-systems-resources/tree/main/career)
+- [Coding exercises](https://github.com/ChitranshBaregama/embedded-systems-resources/tree/main/practice/questions)
+- [Progress tracking](https://github.com/ChitranshBaregama/embedded-systems-resources/tree/main/practice/progress)
+- [150 interview prompts](https://github.com/ChitranshBaregama/embedded-systems-resources/tree/main/practice/interview-150)
 
-## Status
-- ⬜ Unseen
-- 🟡 Attempted
-- 🟢 Solved
-- 🔵 Solved without help
-- ⭐ Interview Ready
-- 🔴 Revisit
+This repository is retained only for historical reference. Do not maintain a second progress tracker here. All 52 original files at commit `b82839f16f7fbed84911f818ec88a995c798a748` are preserved in the combined repository's [migration snapshot](https://github.com/ChitranshBaregama/embedded-systems-resources/blob/main/career/migration/Firmware-Interview-Prep.snapshot.json). Its [migration record](https://github.com/ChitranshBaregama/embedded-systems-resources/blob/main/career/MIGRATION.md) explains how the active material was integrated.
 
-## Daily Loop
-1. Pick the next item from `TRACKER.md`.
-2. Read the problem only.
-3. Write the solution from scratch.
-4. Compile with strict warnings.
-5. Run tests and edge cases.
-6. Debug before looking for help.
-7. Write the root cause of every mistake.
-8. Explain time/space complexity and embedded implications.
-9. Update status and schedule weak questions for revision.
-
-## Build
-```bash
-gcc -std=c11 -Wall -Wextra -Wpedantic -Wconversion -g solution.c test.c -o test
-./test
-```
-
-## Codespaces
-Upload this project to GitHub, then use:
-**Code → Codespaces → Create codespace on main**
-
-## Safety
-Never add employer-proprietary source, credentials, production keys/certificates, or confidential project data.
+The original Git history remains here. New attempts, fixes, projects and notes belong in the combined repository.
